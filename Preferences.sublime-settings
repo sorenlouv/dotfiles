@@ -1,1 +1,25 @@
-3/Packages/User/Preferences.sublime-settings
+{
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns": [
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"auditlog",
+		"i18n",
+		"node_modules"
+	],
+	"font_size": 15,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"bold_folder_labels": true,
+	"ensure_newline_at_eof_on_save": true
+}
