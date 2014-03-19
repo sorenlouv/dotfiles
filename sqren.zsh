@@ -1,0 +1,1 @@
+/Users/sqren/.oh-my-zsh/custom/sqren.zsh
