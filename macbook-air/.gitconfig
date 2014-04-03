@@ -1,0 +1,18 @@
+# Creating symlink:
+# ln -s ~/dotfiles/macbook-air/.gitconfig ~/.gitconfig
+
+[user]
+  name = Søren Louv-Jansen
+  email = sorenlouv@gmail.com
+[core]
+  editor = sublime
+[web]
+  browser = google-chrome
+[push]
+  default = simple
+[color]
+  ui = always
+[diff]
+  tool = kaleidoscope
+[difftool]
+  prompt = false

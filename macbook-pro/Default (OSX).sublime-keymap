@@ -1,0 +1,5 @@
+[
+  { "keys": ["super+b"], "command": "toggle_side_bar" },
+  { "keys": ["ctrl+r"], "command": "refresh_folder_list" },
+  { "keys": ["alt+space"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+]

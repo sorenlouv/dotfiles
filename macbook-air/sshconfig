@@ -1,0 +1,7 @@
+# Creating symlink:
+# ln -s ~/dotfiles/macbook-air/sshconfig ~/.ssh/config
+
+Host caesar
+  HostName 178.79.137.106
+  Port 3314
+  User sqren
