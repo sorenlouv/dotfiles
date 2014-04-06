@@ -1,0 +1,20 @@
+# Creating symlink:
+# ln -s ~/dotfiles/macbook-pro/.gitconfig ~/.gitconfig
+
+[user]
+  name = Søren Louv-Jansen
+  email = slo@tradeshift.com
+[core]
+  editor = sublime
+  precomposeunicode = true
+[web]
+  browser = google-chrome
+[push]
+  default = simple
+[color]
+  ui = always
+[diff]
+  tool = kaleidoscope
+[difftool]
+  prompt = false
+

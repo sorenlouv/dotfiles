@@ -11,7 +11,8 @@
 		"CVS",
 		"auditlog",
 		"i18n",
-		"node_modules"
+		"node_modules",
+		"dist"
 	],
 	"font_size": 15,
 	"highlight_line": true,
