@@ -1,5 +1,5 @@
 # Creating symlink:
-# ln -s ~/dotfiles/macbook-air/sshconfig ~/.ssh/config
+# ln -s ~/dotfiles/sshconfig ~/.ssh/config
 
 Host caesar
   HostName 178.79.137.106
