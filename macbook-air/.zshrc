@@ -1,6 +1,3 @@
-# Creating symlink:
-# ln -s ~/dotfiles/macbook-air/.zshrc ~/.zshrc
-
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 

@@ -1,6 +1,3 @@
-# Creating symlink:
-# ln -s ~/dotfiles/macbook-air/.gitconfig ~/.gitconfig
-
 [user]
   name = Søren Louv-Jansen
   email = sorenlouv@gmail.com

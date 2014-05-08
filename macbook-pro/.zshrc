@@ -1,6 +1,3 @@
-# Creating symlink:
-# ln -s ~/dotfiles/macbook-pro/.zshrc ~/.zshrc
-
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -31,7 +28,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:"
 
 # Add MAMP's php version to PATH
-export PATH="/Applications/MAMP/bin/php/php5.5.10/bin:$PATH"
+export PATH="$PATH/Applications/MAMP/bin/php/php5.5.10/bin:"
 
 # Add MAMP's mysql to PATH
-export PATH="/Applications/MAMP/Library/bin:$PATH"
+export PATH="$PATH/Applications/MAMP/Library/bin:"

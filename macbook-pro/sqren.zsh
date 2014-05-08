@@ -1,6 +1,3 @@
-# Creating symlink:
-# ln -s ~/dotfiles/macbook-pro/sqrens.zsh ~/.oh-my-zsh/custom/sqrens.zsh
-
 #########################################
 # Misc:
 #########################################
