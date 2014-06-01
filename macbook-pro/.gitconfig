@@ -1,6 +1,6 @@
 [user]
-  name = Søren Louv-Jansen
-  email = slo@tradeshift.com
+	name = Søren Louv-Jansen
+	email = slo@tradeshift.com
 [core]
   editor = sublime
   precomposeunicode = true
@@ -15,3 +15,5 @@
 [difftool]
   prompt = false
 
+[mergetool]
+	keepBackup = true
