@@ -22,6 +22,9 @@ export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=1024m"
 export GRAILS_OPTS="-server -Xmx1024M -XX:MaxPermSize=512m"
 export SBT_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
 
+# Apptoolw alias
+alias apptoolw='~/ts-code/Apps/scripts/apptoolw'
+
 #########################################
 # Homebrew:
 #########################################
