@@ -24,11 +24,14 @@ plugins=(git brew autojump)
 
 source $ZSH/oh-my-zsh.sh
 
-# Set PATH
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:"
+# Add Homebrew to PATH
+export PATH="/usr/local/bin:/usr/local/sbin:"
 
 # Add MAMP's php version to PATH
 export PATH="$PATH/Applications/MAMP/bin/php/php5.5.10/bin:"
 
 # Add MAMP's mysql to PATH
 export PATH="$PATH/Applications/MAMP/Library/bin:"
+
+# Add standard folders to path
+export PATH="$PATH/usr/bin:/bin:/usr/sbin:/sbin:"
