@@ -8,6 +8,9 @@ export EDITOR=sublime
 # Add Homebrew to path
 export PATH=/usr/local/bin:$PATH
 
+# Add MAMP's php version to PATH
+export PATH=/Applications/MAMP/bin/php/php5.5.14/bin:$PATH
+
 # Java home
 export JAVA_HOME=`/usr/libexec/java_home -v 1.6`
 
@@ -65,4 +68,5 @@ function pagoda-download-from-remote {
 # Apache:
 #########################################
 
-alias apache-vhost='$EDITOR /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
+alias mamp-vhost='$EDITOR /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
+alias mamp-php='$EDITOR /Applications/MAMP/bin/php/php5.5.14/conf/php.ini'

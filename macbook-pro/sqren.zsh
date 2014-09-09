@@ -79,5 +79,5 @@ function pagoda-download-from-remote {
 # Apache:
 #########################################
 
-alias apache-vhost='$EDITOR /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
+alias mamp-vhost='$EDITOR /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
 
