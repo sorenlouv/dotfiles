@@ -1,5 +1,14 @@
 [
   { "keys": ["super+b"], "command": "toggle_side_bar" },
   { "keys": ["ctrl+r"], "command": "refresh_folder_list" },
-  { "keys": ["alt+space"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }
+  { "keys": ["alt+space"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+  {"keys": ["ctrl+super+f1"], "command": "xdebug_breakpoint"},
+  {"keys": ["ctrl+super+f2"], "command": "xdebug_conditional_breakpoint"},
+  {"keys": ["ctrl+super+f5"], "command": "xdebug_continue", "args": {"command": "run"}},
+  {"keys": ["ctrl+super+f8"], "command": "xdebug_continue", "args": {"command": "step_over"}},
+  {"keys": ["ctrl+super+f9"], "command": "xdebug_continue", "args": {"command": "step_into"}},
+  {"keys": ["ctrl+super+f7"], "command": "xdebug_continue", "args": {"command": "step_out"}},
+  {"keys": ["ctrl+super+f9"], "command": "xdebug_session_start"},
+  {"keys": ["ctrl+super+f10"], "command": "xdebug_session_stop"},
+  {"keys": ["ctrl+super+f11"], "command": "xdebug_layout", "args": {"keymap" : true}}
 ]

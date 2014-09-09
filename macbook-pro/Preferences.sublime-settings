@@ -17,7 +17,6 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"CSSTidy",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
