@@ -10,19 +10,28 @@
 		".hg",
 		"CVS",
 		"auditlog",
+		"db/migrations",
 		"i18n",
-		"node_modules"
+		"node_modules",
+		".idea",
+		"Apps/target",
+		"test/vendors",
+		"ts-code",
+		".composer",
+		".grails",
+		".m2",
+		".ivy2",
+		".npm",
+		"po",
+		"dist"
 	],
-	"font_size": 16,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"CSSTidy",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
