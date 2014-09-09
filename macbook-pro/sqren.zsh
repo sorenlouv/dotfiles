@@ -25,6 +25,12 @@ export SBT_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
 # Apptoolw alias
 alias apptoolw='~/ts-code/Apps/scripts/apptoolw'
 
+
+function app-activate {
+  APP=$1
+  ~/ts-code/Apps/scripts/apptoolw activate ts-code/Apps/src/main/apps/$APP
+}
+
 #########################################
 # Homebrew:
 #########################################
