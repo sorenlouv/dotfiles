@@ -20,18 +20,6 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git brew autojump)
+plugins=(git brew autojump grunt)
 
 source $ZSH/oh-my-zsh.sh
-
-# Add Homebrew to PATH
-export PATH="/usr/local/bin:/usr/local/sbin:"
-
-# Add MAMP's php version to PATH
-export PATH="$PATH/Applications/MAMP/bin/php/php5.5.10/bin:"
-
-# Add MAMP's mysql to PATH
-export PATH="$PATH/Applications/MAMP/Library/bin:"
-
-# Add standard folders to path
-export PATH="$PATH/usr/bin:/bin:/usr/sbin:/sbin:"

@@ -1,29 +1,4 @@
 #########################################
-# Misc.:
-#########################################
-
-# Make Sublime Text default editor
-export EDITOR=sublime
-
-# Add Homebrew to path
-export PATH=/usr/local/bin:$PATH
-
-# Add MAMP's php version to PATH
-export PATH=/Applications/MAMP/bin/php/php5.5.14/bin:$PATH
-
-# Java home
-export JAVA_HOME=`/usr/libexec/java_home -v 1.6`
-
-# Autojump
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
-# Autojump tab completion
-autoload -U compinit && compinit
-
-# Grunt tab completion
-eval "$(grunt --completion=zsh)"
-
-#########################################
 # Pagodabox:
 #########################################
 
@@ -63,10 +38,3 @@ function pagoda-download-from-remote {
 
     mysqldump -u $PAGODA_DB_USER -h 127.0.0.1 --port 3307 -p --databases $PAGODA_DB_NAME > $PAGODA_DB_NAME.sql
 }
-
-#########################################
-# Apache:
-#########################################
-
-alias mamp-vhost='$EDITOR /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
-alias mamp-php='$EDITOR /Applications/MAMP/bin/php/php5.5.14/conf/php.ini'
