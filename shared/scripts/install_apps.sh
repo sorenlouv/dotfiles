@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Install Cask
+brew install caskroom/cask/brew-cask
+
+# Apps to install
 apps=(
   alfred
   appcleaner
