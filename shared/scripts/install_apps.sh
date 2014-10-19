@@ -7,6 +7,7 @@ brew install caskroom/cask/brew-cask
 apps=(
   alfred
   appcleaner
+  caffeine
   dropbox
   firefox
   flux
