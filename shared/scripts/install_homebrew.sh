@@ -11,4 +11,5 @@ fi
 brew update
 
 # Install homebrew packages
-brew install python coreutils findutils
+brew install python coreutils findutils node
+
