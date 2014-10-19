@@ -13,3 +13,5 @@ brew update
 # Install homebrew packages
 brew install python coreutils findutils node
 
+# Install grunt globally
+npm install -g grunt-cli
