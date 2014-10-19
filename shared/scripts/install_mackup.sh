@@ -1,1 +1,1 @@
-pip install mackupç
+pip install mackup
