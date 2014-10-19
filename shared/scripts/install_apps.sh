@@ -7,6 +7,7 @@ apps=(
   firefox
   flux
   iterm2
+  moom
   robomongo
   skype
   slack
