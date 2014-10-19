@@ -8,6 +8,7 @@ apps=(
   alfred
   appcleaner
   caffeine
+  charles
   dropbox
   firefox
   flux
