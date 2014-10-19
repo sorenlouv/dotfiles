@@ -6,7 +6,6 @@ apps=(
   dropbox
   firefox
   flux
-  google-chrome
   iterm2
   robomongo
   skype
