@@ -9,3 +9,6 @@ fi
 
 # Update homebrew recipes
 brew update
+
+# Install homebrew packages
+brew install python coreutils findutils
