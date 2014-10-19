@@ -31,3 +31,7 @@ apps=(
 # Default is: /Users/$user/Applications
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
+
+# Alfred cannot launch these apps because the actual location of the app is not in /Applications but in /opt/homebrew-cask/Caskroom/.
+# To add this path to Alfred
+brew cask alfred link
