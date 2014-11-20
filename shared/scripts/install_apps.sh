@@ -8,6 +8,7 @@ apps=(
   alfred
   appcleaner
   dropbox
+  evernote
   firefox
   flux
   iterm2
