@@ -8,7 +8,6 @@ function macbookpro {
   source ../../macbook-pro/scripts/restore.sh
 }
 
-# Screenshot location
 while true; do
     read -p "Do you wish to restore a device's settings?
 1) Macbook Air

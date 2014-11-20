@@ -16,7 +16,7 @@ function ask_for_email {
 
 # Prompt to setup ssh
 while true; do
-    read -p "2) Do you wish to setup ssh-keys (y/n)? " yn
+    read -p "Do you wish to setup ssh-keys (y/n)? " yn
     case $yn in
         [Yy]* ) ask_for_email; break;;
         [Nn]* ) break;;
