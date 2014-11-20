@@ -7,6 +7,8 @@ brew install caskroom/cask/brew-cask
 apps=(
   alfred
   appcleaner
+  caffeine
+  charles
   dropbox
   evernote
   firefox
