@@ -3,6 +3,7 @@
   email = sorenlouv@gmail.com
 [core]
   editor = sublime
+  precomposeunicode = true
 [web]
   browser = google-chrome
 [push]
